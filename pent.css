@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    border-radius: left 50px;
+}
+
+.header h1 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.navigation {
+    display: inline-block;
+    float: right;
+}
+#foto { size-adjust: 5rem;
+
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.hero {
+    background-color: #4CAF50;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+    
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    background-color: #4c93af;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.features {
+    background-color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.features .feature {
+    margin: 2rem 0;
+}
+
+.features h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
